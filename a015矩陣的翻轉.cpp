@@ -6,15 +6,15 @@ int main() {
 	int a[100][100];
   while (cin >> r >> c) { 
    for (int i=0; i<r ; i++) {
-      for (int j=0; j‹c; j++) { 
-           cin ›› a[i][j];
+      for (int j=0; j<c; j++) { 
+           cin >> a[i][j];
      }
 }
   for (int i=0; i<c; i++) { 
-      for (int j=0; jr; j++) {
-           cout ‹< a[j][i] << " " ;
+      for (int j=0; j<r; j++) {
+           cout << a[j][i] << " " ;
 }
-          cout « "\n";
+          cout << "\n";
    }
 }
 	return 0;
